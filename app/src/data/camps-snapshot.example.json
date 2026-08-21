@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generatedAt": "2025-01-15T12:00:00.000Z",
+    "source": "airtable",
+    "tableName": "2025",
+    "totalCamps": 3
+  },
+  "camps": [
+    {
+      "id": "recABC123",
+      "camp_name": "Example Camp 1",
+      "placement_address": "3:00 & C",
+      "original_address": "C & 3:00",
+      "bed_status": "bed_talk",
+      "user_name": "Jane Doe",
+      "email": "jane@example.com",
+      "buddy_name": "John Smith",
+      "phone": null,
+      "pronouns": "she/her",
+      "camper_count": 15,
+      "wants_buddy": true,
+      "last_updated": "2025-01-15T10:30:00.000Z",
+      "notes": "Fully implemented BED program with weekly talks",
+      "created_at": "2025-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "recDEF456",
+      "camp_name": "Example Camp 2",
+      "placement_address": "6:00 & E",
+      "original_address": "E & 6:00",
+      "bed_status": "consent_policy",
+      "user_name": "Bob Johnson",
+      "email": "bob@example.com",
+      "buddy_name": "Alice Williams",
+      "phone": null,
+      "pronouns": "he/him",
+      "camper_count": 8,
+      "wants_buddy": true,
+      "last_updated": "2025-01-14T14:20:00.000Z",
+      "notes": "Consent policy posted at camp entrance",
+      "created_at": "2025-01-05T00:00:00.000Z"
+    },
+    {
+      "id": "recGHI789",
+      "camp_name": "Example Camp 3",
+      "placement_address": "9:00 & B",
+      "original_address": "9 & B",
+      "bed_status": "registered",
+      "user_name": "Chris Lee",
+      "email": "chris@example.com",
+      "buddy_name": null,
+      "phone": null,
+      "pronouns": "they/them",
+      "camper_count": 5,
+      "wants_buddy": false,
+      "last_updated": "2025-01-10T09:15:00.000Z",
+      "notes": "Registered for BED program",
+      "created_at": "2025-01-08T00:00:00.000Z"
+    }
+  ]
+}
