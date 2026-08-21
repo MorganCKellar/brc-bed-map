@@ -16,7 +16,7 @@ jobs:
         run: |
           set -e
           SRC=https://raw.githubusercontent.com/ssdzd/brc-bed-map/main
-          FILES="app/.env.example app/.env.SECURITY-NOTE.md app/.gitignore app/README.md app/TESTING.md app/eslint.config.js app/index.html app/package-lock.json app/playwright.config.js app/postcss.config.js app/tailwind.config.js app/vite.config.js app/vite.config.test.js app/public/BED_Map.V1_Facebook_Post_Square_3.png app/public/NImue501.svg app/public/Ranger.png app/public/Ranger.svg app/public/apple-touch-icon.png app/public/brc_combined_validation.svg app/public/favicon-16x16.png app/public/favicon-32x32.png app/public/favicon.ico app/public/logo-4x.png app/public/merged_map_full.svg app/public/vite.svg app/src/assets/DK-large@3x.png app/src/assets/fullname@4x.png app/src/assets/logo-4x.png app/src/components/BEDmapHeader.jsx app/src/components/BackgroundOverlay.jsx app/src/components/CentralLogo.jsx app/src/components/CornerCharacters.jsx app/src/components/DataSourceSelector.jsx app/src/components/ErrorBoundary.jsx app/src/components/ErrorDisplay.jsx app/src/components/InfoPanel.jsx app/src/components/Legend.jsx app/src/components/LoadingSpinner.jsx app/src/components/MapView.jsx app/src/components/PerformanceDashboard.jsx app/src/components/PlayaIcons.jsx app/src/components/SearchPanel.jsx app/src/components/SharePanel.jsx app/src/components/StatsPanel.jsx app/src/components/ThemeSwitcher.jsx app/src/components/Tooltip.jsx app/src/components/UpdatePanel.jsx app/src/components/ZoomControls.jsx app/src/hooks/useMapData.js app/src/hooks/usePerformanceMonitor.js app/src/hooks/useUrlState.js app/src/utils/airtableClient.js app/src/utils/airtableHelpers.js app/src/utils/blockUtils.js app/src/utils/dataLoader.js app/src/utils/logger.js app/src/utils/mockData.js app/scripts/analyze-bundle.js app/src/data/camps-snapshot.example.json"
+          FILES="app/.env.example app/.gitignore app/README.md app/TESTING.md app/eslint.config.js app/index.html app/package-lock.json app/playwright.config.js app/postcss.config.js app/tailwind.config.js app/vite.config.js app/vite.config.test.js app/public/BED_Map.V1_Facebook_Post_Square_3.png app/public/NImue501.svg app/public/Ranger.png app/public/Ranger.svg app/public/apple-touch-icon.png app/public/brc_combined_validation.svg app/public/favicon-16x16.png app/public/favicon-32x32.png app/public/favicon.ico app/public/logo-4x.png app/public/merged_map_full.svg app/public/vite.svg app/src/assets/DK-large@3x.png app/src/assets/fullname@4x.png app/src/assets/logo-4x.png app/src/components/BEDmapHeader.jsx app/src/components/BackgroundOverlay.jsx app/src/components/CentralLogo.jsx app/src/components/CornerCharacters.jsx app/src/components/DataSourceSelector.jsx app/src/components/ErrorBoundary.jsx app/src/components/ErrorDisplay.jsx app/src/components/InfoPanel.jsx app/src/components/Legend.jsx app/src/components/LoadingSpinner.jsx app/src/components/MapView.jsx app/src/components/PerformanceDashboard.jsx app/src/components/PlayaIcons.jsx app/src/components/SearchPanel.jsx app/src/components/SharePanel.jsx app/src/components/StatsPanel.jsx app/src/components/ThemeSwitcher.jsx app/src/components/Tooltip.jsx app/src/components/UpdatePanel.jsx app/src/components/ZoomControls.jsx app/src/hooks/useMapData.js app/src/hooks/usePerformanceMonitor.js app/src/hooks/useUrlState.js app/src/utils/airtableClient.js app/src/utils/airtableHelpers.js app/src/utils/blockUtils.js app/src/utils/dataLoader.js app/src/utils/logger.js app/src/utils/mockData.js app/scripts/analyze-bundle.js app/src/data/camps-snapshot.example.json"
           for f in $FILES; do
             mkdir -p "$(dirname "$f")"
             curl -sSfL "$SRC/$f" -o "$f"
@@ -34,25 +34,3 @@ jobs:
         run: |
           rm .github/workflows/migrate.yml
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git commit -m "Import app files from previous repo (PII excluded)"
-          git push
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Build
-        run: |
-          cd app
-          npm ci
-          npm run build
-
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: app/dist
-          branch: gh-pages
-          clean: true
