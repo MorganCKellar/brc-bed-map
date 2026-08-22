@@ -45,7 +45,7 @@ const MapView = () => {
   const [dataSource, setDataSource] = useState(null); // null = auto-detect from URL or use static
   const { camps, loading, error, dataMetadata, dataSource: effectiveSource, refresh } = useMapData(dataSource);
   const [selectedBlock, setSelectedBlock] = useState(null);
-  const [zoom, setZoom] = useState(0.62);
+  const [zoom, setZoom] = useState(0.55);
   const [pan, setPan] = useState({ x: 0, y: 84 });
   const [_isPanning, _setIsPanning] = useState(false);
   const [_lastPanPoint, _setLastPanPoint] = useState({ x: 0, y: 0 });
@@ -1401,7 +1401,7 @@ const MapView = () => {
             boxSizing: 'border-box',
             top: window.innerWidth <= 768 ? '-5em' : '0',
             transform: window.innerWidth <= 768 
-              ? `scale(0.85)`
+              ? `scale(0.78)`
               : `translate(${pan.x}px, ${pan.y}px) scale(${zoom})`,
             transformOrigin: 'center center',
             transition: _isPanning ? 'none' : 'transform 0.2s ease-out, opacity 0.3s ease',
@@ -1722,6 +1722,7 @@ const MapView = () => {
 };
 
 export default MapView;
+
 
 
 
