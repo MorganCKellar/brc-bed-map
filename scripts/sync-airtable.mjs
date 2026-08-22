@@ -17,14 +17,19 @@ function snapAddress(raw) {
   const s = String(raw).trim();
   if (/center\s*camp/i.test(s)) return '5:59 & A+';
   if (/9:?00.*g\s*plaza|g\s*plaza.*9/i.test(s)) return '8:59 & G-';
-  const m = s.match(/(\d{1,2}):(\d{2})\s*(?:&|and|@)?\s*(esplanade|[a-j])\b/i);
-  if (!m) return null;
-  let hh = parseInt(m[1], 10);
-  let mm = parseInt(m[2], 10);
+  let hh, mm;
+  let m = s.match(/(\d{1,2})(?::(\d{2}))?\s*(?:&|and|@)?\s*(esplanade|[a-j])\b/i);
+  let streetTok;
+  if (m) { hh = parseInt(m[1], 10); mm = m[2] ? parseInt(m[2], 10) : 0; streetTok = m[3]; }
+  else {
+    m = s.match(/\b(esplanade|[a-j])\s*(?:&|and|@)?\s*(\d{1,2})(?::(\d{2}))?\b/i);
+    if (!m) return null;
+    streetTok = m[1]; hh = parseInt(m[2], 10); mm = m[3] ? parseInt(m[3], 10) : 0;
+  }
   if (hh === 10 && mm === 0) { hh = 9; mm = 30; }   // city edge -> last block
   else mm = mm < 30 ? 0 : 30;                        // floor to block grid
   if (hh < 2 || hh > 9) return null;
-  const street = m[3].length === 1 ? m[3].toUpperCase() : 'Esplanade';
+  const street = streetTok.length === 1 ? streetTok.toUpperCase() : 'Esplanade';
   return `${hh}:${mm === 0 ? '00' : '30'} & ${street}`;
 }
 
