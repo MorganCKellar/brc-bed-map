@@ -5,7 +5,7 @@ const UpdatePanel = ({ theme = '2025', isVisible = false, onToggle }) => {
   const themeConfig = THEMES[theme];
   
   const handleUpdateClick = () => {
-    window.open('https://bedtalks.org/bedmapupdate', '_blank', 'noopener,noreferrer');
+    window.open('https://airtable.com/app8o7hgpxr6xx2Rt/pagoaAj0AGvIdOEor/form', '_blank', 'noopener,noreferrer');
   };
   
   if (!isVisible) {
