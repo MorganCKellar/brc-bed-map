@@ -49,7 +49,7 @@ export const useUrlState = () => {
     if (zoom) {
       const parsedZoom = parseFloat(zoom);
       if (!isNaN(parsedZoom) && parsedZoom >= 0.5 && parsedZoom <= 5) {
-        newState.zoom = parsedZoom;
+        /* zoom locked by design - URL zoom ignored */
       }
     }
     
