@@ -38,6 +38,18 @@ const BEDmapHeader = ({ theme = '2024' }) => {
           borderRadius: '8px'
         }}
       />
+      <div
+        style={{
+          fontFamily: 'Inter, system-ui, sans-serif',
+          fontSize: '0.95rem',
+          fontWeight: 700,
+          letterSpacing: '0.35em',
+          color: '#E8127C',
+          textTransform: 'uppercase'
+        }}
+      >
+        Consent is Principle Zero
+      </div>
     </div>
   );
 };
