@@ -65,7 +65,7 @@ const SharePanel = ({
           onClick={() => onToggle && onToggle()}
           style={{
             padding: '0.75rem',
-            backgroundColor: '#FE8803',
+            backgroundColor: '#E8127C',
             color: '#FFFFFF',
             border: 'none',
             borderRadius: '0.75rem',
@@ -168,7 +168,7 @@ const SharePanel = ({
               style={{
                 width: '100%',
                 padding: '0.75rem 1rem',
-                backgroundColor: '#FE8803',
+                backgroundColor: '#E8127C',
                 color: '#FFFFFF',
                 border: 'none',
                 borderRadius: '0.5rem',
@@ -183,10 +183,10 @@ const SharePanel = ({
                 gap: '0.5rem'
               }}
               onMouseEnter={(e) => {
-                e.target.style.backgroundColor = '#E67300';
+                e.target.style.backgroundColor = '#B80D62';
               }}
               onMouseLeave={(e) => {
-                e.target.style.backgroundColor = '#FE8803';
+                e.target.style.backgroundColor = '#E8127C';
               }}
             >
               📱 Share
@@ -205,7 +205,7 @@ const SharePanel = ({
               color: copyStatus === 'Copied!' ? '#FFFFFF' : themeConfig.textColor,
               border: `2px solid ${copyStatus === 'Copied!' 
                 ? '#22C55E' 
-                : '#FE8803'}`,
+                : '#E8127C'}`,
               borderRadius: '0.5rem',
               fontFamily: themeConfig.typography.primaryFont,
               fontWeight: '600',
