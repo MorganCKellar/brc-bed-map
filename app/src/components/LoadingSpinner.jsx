@@ -33,7 +33,7 @@ const LoadingSpinner = ({ theme = '2025', message = 'Loading...' }) => {
           width: '40px',
           height: '40px',
           border: `3px solid ${themeConfig.isDark ? 'rgba(255,255,255,0.2)' : 'rgba(0,0,0,0.2)'}`,
-          borderTop: `3px solid ${themeConfig.isDark ? '#FF69B4' : '#3B82F6'}`,
+          borderTop: `3px solid ${themeConfig.isDark ? '#E8127C' : '#3B82F6'}`,
           borderRadius: '50%',
           animation: 'spin 1s linear infinite'
         }}
