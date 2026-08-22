@@ -924,6 +924,7 @@ const MapView = () => {
     const existingBedText = svgDoc.querySelector('#bedtalks-text-svg');
     if (!existingBedText) {
       const bedTextGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
+      svgRef.current.contentDocument.documentElement.setAttribute('viewBox', '42.42 0 1160.17 861.54'); // center the Man
       bedTextGroup.setAttribute("id", "bedtalks-text-svg");
       bedTextGroup.setAttribute("transform", "translate(622.5, 847.04)"); // The Man's x-coord, y-coord + 575px
       
@@ -936,7 +937,7 @@ const MapView = () => {
       bedText.setAttribute("font-family", "Arial, sans-serif");
       bedText.setAttribute("font-size", "24");
       bedText.setAttribute("font-weight", "600");
-      bedText.setAttribute("fill", "#E8127C"); // Principle Zero magenta
+      bedText.setAttribute("fill", "#FFFFFF"); // white
       bedText.setAttribute("letter-spacing", "0.1em");
       bedText.style.setProperty('filter', 'none', 'important');
       bedText.textContent = "BEDtalks.org";
@@ -1443,7 +1444,7 @@ const MapView = () => {
         
         {/* Principle Zero mark - locked to map coordinates (the Man at 622.5, 272.04) */}
         <svg
-          viewBox="0 0 1160.17 861.54"
+          viewBox="42.42 0 1160.17 861.54"
           aria-hidden="true"
           style={{
             position: 'absolute',
@@ -1705,4 +1706,5 @@ const MapView = () => {
 };
 
 export default MapView;
+
 
