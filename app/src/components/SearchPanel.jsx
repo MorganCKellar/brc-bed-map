@@ -127,7 +127,7 @@ const SearchPanel = memo(({
           onClick={() => onToggle && onToggle()}
           style={{
             padding: '0.75rem 1.5rem',
-            backgroundColor: '#FE8803',
+            backgroundColor: '#E8127C',
             color: '#FFFFFF',
             border: 'none',
             borderRadius: '2rem',
@@ -237,7 +237,7 @@ const SearchPanel = memo(({
             transition: 'border-color 0.2s ease'
           }}
           onFocus={(e) => {
-            e.target.style.borderColor = '#FE8803';
+            e.target.style.borderColor = '#E8127C';
           }}
           onBlur={(e) => {
             e.target.style.borderColor = themeConfig.isDark ? 'rgba(255,255,255,0.2)' : 'rgba(0,0,0,0.1)';
@@ -264,7 +264,7 @@ const SearchPanel = memo(({
                 case 'registered': return themeConfig.colors.registered; // Orange  
                 case 'consent_policy': return themeConfig.colors.consent_policy; // Purple
                 case 'bed_talk': return themeConfig.colors.bed_talk; // Hot Pink
-                default: return theme === '2024' ? '#FF69B4' : '#3B82F6'; // Default theme color
+                default: return theme === '2024' ? '#E8127C' : '#3B82F6'; // Default theme color
               }
             };
             
@@ -347,7 +347,7 @@ const SearchPanel = memo(({
             style={{
               background: 'none',
               border: 'none',
-              color: '#FE8803',
+              color: '#E8127C',
               cursor: 'pointer',
               fontSize: '0.8rem',
               fontFamily: themeConfig.typography.primaryFont,
@@ -467,7 +467,7 @@ const SearchPanel = memo(({
                   top: `${(scrollTop / (contentHeight - containerHeight)) * (containerHeight - 40)}px`,
                   width: '12px',
                   height: '40px',
-                  backgroundColor: '#FE8803',
+                  backgroundColor: '#E8127C',
                   borderRadius: '6px',
                   cursor: 'pointer'
                 }}
