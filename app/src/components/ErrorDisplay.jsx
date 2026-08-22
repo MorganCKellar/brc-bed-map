@@ -124,7 +124,7 @@ const ErrorDisplay = ({
         <button
           onClick={onRetry}
           style={{
-            backgroundColor: themeConfig.isDark ? '#FF69B4' : '#3B82F6',
+            backgroundColor: themeConfig.isDark ? '#E8127C' : '#3B82F6',
             color: 'white',
             border: 'none',
             padding: '0.75rem 1.5rem',
@@ -142,7 +142,7 @@ const ErrorDisplay = ({
             e.target.style.backgroundColor = themeConfig.isDark ? '#FF1493' : '#2563EB';
           }}
           onMouseOut={(e) => {
-            e.target.style.backgroundColor = themeConfig.isDark ? '#FF69B4' : '#3B82F6';
+            e.target.style.backgroundColor = themeConfig.isDark ? '#E8127C' : '#3B82F6';
           }}
         >
           Try Again
