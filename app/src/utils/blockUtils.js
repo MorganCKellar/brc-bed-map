@@ -21,20 +21,20 @@ export const THEMES = {
   '2024': {
     name: '2024 Vibrant',
     colors: BED_COLORS_2024,
-    background: 'radial-gradient(circle at center, rgba(255, 228, 225, 0.95) 0%, rgba(255, 105, 180, 0.85) 35%, rgba(139, 0, 139, 0.75) 65%, rgba(75, 0, 130, 0.65) 100%)',
-    containerBg: '#FF69B4',
-    textColor: '#FFFFFF',
-    isDark: true,
+    background: 'linear-gradient(to right, rgba(232,18,124,0) calc(50% - 5px), rgba(232,18,124,0.09) calc(50% - 5px), rgba(232,18,124,0.09) calc(50% + 5px), rgba(232,18,124,0) calc(50% + 5px)), radial-gradient(circle at center, rgba(232,18,124,0) 33%, rgba(232,18,124,0.09) 33.6%, rgba(232,18,124,0.09) 37.2%, rgba(232,18,124,0) 37.8%), radial-gradient(circle at center, rgba(232,18,124,0.05) 0%, rgba(255,255,255,0) 55%), #FFFFFF',
+    containerBg: '#FFFFFF',
+    textColor: '#1F1F1F',
+    isDark: false,
     centerCircle: {
-      background: 'linear-gradient(135deg, #FFE0F0 0%, #FFB6C1 30%, #FFC0CB 70%, #FFCCCB 100%)',
-      border: '3px solid #FFFFFF',
-      textColor: '#AD1457'
+      background: '#FFFFFF',
+      border: '3px solid #E8127C',
+      textColor: '#E8127C'
     },
     typography: {
       primaryFont: 'Inter, system-ui, sans-serif',
-      headingFont: 'Bebas Neue, sans-serif',
-      scriptFont: 'Pacifico, cursive',
-      displayFont: 'Bebas Neue, sans-serif'
+      headingFont: 'Inter, system-ui, sans-serif',
+      scriptFont: 'Inter, system-ui, sans-serif',
+      displayFont: 'Inter, system-ui, sans-serif'
     }
   },
 };
