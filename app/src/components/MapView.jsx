@@ -1055,7 +1055,7 @@ const MapView = () => {
         campName: camp.camp_name, 
         address: camp.placement_address 
       });
-    }
+            }
   };
   
   const handleFilterChange = useCallback((filterData) => {
