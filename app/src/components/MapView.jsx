@@ -1524,6 +1524,7 @@ const MapView = () => {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Consent is Principle Zero - bedtalks.org"
+        className="pz-badge"
         style={{ position: 'absolute', bottom: '1rem', left: '1rem', zIndex: 32, display: 'block', width: '9.5rem', height: '9.5rem' }}
       >
         <svg viewBox="0 0 200 200" style={{ width: '100%', height: '100%', filter: 'drop-shadow(0 6px 16px rgba(150,20,80,0.35))' }}>
@@ -1542,6 +1543,7 @@ const MapView = () => {
       
       {/* Principle Zero tagline - always visible above search */}
       <div
+        className="pz-tagline"
         style={{
           position: 'absolute',
           top: '13.2rem',
@@ -1615,6 +1617,17 @@ const MapView = () => {
           }
           
           /* Center legend on mobile and raise it slightly */
+          .pz-badge { }
+          .pz-tagline { }
+          @media (max-width: 768px) {
+            .pz-badge { display: none !important; }
+            .pz-tagline {
+              font-size: 0.66rem !important;
+              letter-spacing: 0.24em !important;
+              top: 11.5rem !important;
+              white-space: nowrap !important;
+            }
+          }
           .legend-container {
             position: fixed !important;
             bottom: 1rem !important; /* Moved down to 1rem */
@@ -1722,6 +1735,7 @@ const MapView = () => {
 };
 
 export default MapView;
+
 
 
 
