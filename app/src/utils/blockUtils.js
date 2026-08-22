@@ -8,7 +8,7 @@ export const BED_COLORS_2025 = {
 
 // BED status colors - 2024 Theme (Vibrant/Fun)
 export const BED_COLORS_2024 = {
-  none: '#F8F9FA',              // Light gray/white
+  none: '#E2E7F3',              // Light gray/white
   registered: '#FE8803',    // Orange
   consent_policy: '#9807AB',    // Purple  
   bed_talk: '#FF1493'  // Hot pink
@@ -21,9 +21,9 @@ export const THEMES = {
   '2024': {
     name: '2024 Vibrant',
     colors: BED_COLORS_2024,
-    background: 'linear-gradient(to right, rgba(232,18,124,0) calc(50% - 5px), rgba(232,18,124,0.09) calc(50% - 5px), rgba(232,18,124,0.09) calc(50% + 5px), rgba(232,18,124,0) calc(50% + 5px)), radial-gradient(circle at center, rgba(232,18,124,0) 33%, rgba(232,18,124,0.09) 33.6%, rgba(232,18,124,0.09) 37.2%, rgba(232,18,124,0) 37.8%), radial-gradient(circle at center, rgba(232,18,124,0.05) 0%, rgba(255,255,255,0) 55%), #FFFFFF',
-    containerBg: '#FFFFFF',
-    textColor: '#1F1F1F',
+    background: 'radial-gradient(circle at 50% 42%, #FDECF2 0%, #FBD3E2 34%, #F5A9CB 64%, #EE76AD 100%)',
+    containerBg: '#F8BBD5',
+    textColor: '#4A1230',
     isDark: false,
     centerCircle: {
       background: '#FFFFFF',
