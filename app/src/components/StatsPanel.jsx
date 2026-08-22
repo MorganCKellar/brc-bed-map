@@ -73,7 +73,7 @@ const StatsPanel = ({ camps, theme = '2025', isVisible = false, onToggle }) => {
           onClick={() => onToggle && onToggle()}
           style={{
             padding: '0.75rem',
-            backgroundColor: '#FE8803',
+            backgroundColor: '#E8127C',
             color: '#FFFFFF',
             border: 'none',
             borderRadius: '0.75rem',
