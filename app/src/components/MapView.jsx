@@ -939,7 +939,7 @@ const MapView = () => {
       bedText.setAttribute("font-weight", "600");
       bedText.setAttribute("fill", "#FFFFFF"); // white
       bedText.setAttribute("letter-spacing", "0.1em");
-      bedText.style.setProperty('filter', 'none', 'important');
+      bedText.style.setProperty('filter', 'drop-shadow(0px 2px 6px rgba(122, 16, 66, 0.6))', 'important');
       bedText.textContent = "BEDtalks.org";
       
       // Add tooltip
@@ -1722,6 +1722,7 @@ const MapView = () => {
 };
 
 export default MapView;
+
 
 
 
