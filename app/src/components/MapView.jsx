@@ -1420,6 +1420,7 @@ const MapView = () => {
           type="image/svg+xml"
           className="w-full h-full"
           style={{ 
+            position: 'relative',
             zIndex: 25,
             filter: 'none',
             display: 'block',
@@ -1452,7 +1453,7 @@ const MapView = () => {
             height: '100%',
             overflow: 'visible',
             pointerEvents: 'none',
-            zIndex: 26
+            zIndex: 0
           }}
         >
           <circle cx="622.5" cy="272.04" r="576.4" fill="none" stroke="#E8127C" strokeWidth="14.3" />
@@ -1460,7 +1461,6 @@ const MapView = () => {
           <line x1="46.1" y1="272.04" x2="1198.9" y2="272.04" stroke="#E8127C" strokeWidth="14.3" />
           <circle cx="622.5" cy="272.04" r="17" fill="#E8127C" />
           <circle cx="622.5" cy="272.04" r="7" fill="#FFFFFF" />
-          <text x="622.5" y="906" textAnchor="middle" fill="#FFFFFF" fontFamily="Inter, system-ui, sans-serif" fontWeight="800" fontSize="30" letterSpacing="0.55em">CONSENT IS PRINCIPLE ZERO</text>
         </svg>
         
         
@@ -1500,6 +1500,49 @@ const MapView = () => {
           />
         </div>
       )}
+      
+      {/* Principle Zero badge - bottom left */}
+      <a
+        href="https://bedtalks.org"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Consent is Principle Zero - bedtalks.org"
+        style={{ position: 'absolute', bottom: '1rem', left: '1rem', zIndex: 32, display: 'block', width: '9.5rem', height: '9.5rem' }}
+      >
+        <svg viewBox="0 0 200 200" style={{ width: '100%', height: '100%', filter: 'drop-shadow(0 6px 16px rgba(150,20,80,0.35))' }}>
+          <circle cx="100" cy="100" r="98" fill="#E5127D" />
+          <g stroke="#EE4D9B" strokeWidth="9" fill="none" strokeLinecap="round">
+            <circle cx="100" cy="100" r="58" />
+            <line x1="100" y1="16" x2="100" y2="184" />
+          </g>
+          <circle cx="100" cy="100" r="9" fill="#EE4D9B" />
+          <text x="100" y="62" textAnchor="middle" fill="#FFFFFF" fontFamily="Inter, system-ui, sans-serif" fontWeight="700" fontSize="13" letterSpacing="0.25em">CONSENT IS</text>
+          <text x="100" y="98" textAnchor="middle" fill="#FFFFFF" fontFamily="Inter, system-ui, sans-serif" fontWeight="800" fontSize="25">PRINCIPLE</text>
+          <text x="100" y="126" textAnchor="middle" fill="#FFFFFF" fontFamily="Inter, system-ui, sans-serif" fontWeight="800" fontSize="25">ZERO</text>
+          <text x="100" y="158" textAnchor="middle" fill="#FFFFFF" fontFamily="Inter, system-ui, sans-serif" fontWeight="700" fontSize="13">bedtalks.org</text>
+        </svg>
+      </a>
+      
+      {/* Principle Zero tagline - always visible above search */}
+      <div
+        style={{
+          position: 'absolute',
+          bottom: '4.6rem',
+          left: '50%',
+          transform: 'translateX(-50%)',
+          color: '#FFFFFF',
+          fontFamily: 'Inter, system-ui, sans-serif',
+          fontWeight: 800,
+          fontSize: '1.05rem',
+          letterSpacing: '0.5em',
+          textTransform: 'uppercase',
+          whiteSpace: 'nowrap',
+          pointerEvents: 'none',
+          zIndex: 34
+        }}
+      >
+        Consent is Principle Zero
+      </div>
       
       {/* Tooltip */}
       <Tooltip
@@ -1662,3 +1705,4 @@ const MapView = () => {
 };
 
 export default MapView;
+
