@@ -1458,7 +1458,7 @@ const MapView = () => {
           }}
         >
           <circle cx="622.5" cy="272.04" r="576.4" fill="none" stroke="#E8127C" strokeWidth="14.3" />
-          <line x1="622.5" y1="-419.66" x2="622.5" y2="963.74" stroke="#E8127C" strokeWidth="14.3" strokeLinecap="round" />
+          <line x1="622.5" y1="-419.66" x2="622.5" y2="848.44" stroke="#E8127C" strokeWidth="14.3" strokeLinecap="round" />
           <line x1="46.1" y1="272.04" x2="1198.9" y2="272.04" stroke="#E8127C" strokeWidth="14.3" />
           <circle cx="622.5" cy="272.04" r="17" fill="#E8127C" />
           <circle cx="622.5" cy="272.04" r="7" fill="#FFFFFF" />
@@ -1706,6 +1706,7 @@ const MapView = () => {
 };
 
 export default MapView;
+
 
 
 
