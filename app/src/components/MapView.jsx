@@ -1528,7 +1528,7 @@ const MapView = () => {
       <div
         style={{
           position: 'absolute',
-          bottom: '4.6rem',
+          top: '13.2rem',
           left: '50%',
           transform: 'translateX(-50%)',
           color: '#FFFFFF',
@@ -1706,5 +1706,6 @@ const MapView = () => {
 };
 
 export default MapView;
+
 
 
