@@ -209,7 +209,7 @@ const renderInfoPanelContent = (blockId, campsInBlock, theme, onClose, loading, 
               width: '24px',
               height: '24px',
               border: `2px solid ${themeConfig.isDark ? 'rgba(255,255,255,0.2)' : 'rgba(0,0,0,0.2)'}`,
-              borderTop: `2px solid ${themeConfig.isDark ? '#FF69B4' : '#3B82F6'}`,
+              borderTop: `2px solid ${themeConfig.isDark ? '#E8127C' : '#3B82F6'}`,
               borderRadius: '50%',
               animation: 'spin 1s linear infinite'
             }}
@@ -316,7 +316,7 @@ const renderInfoPanelContent = (blockId, campsInBlock, theme, onClose, loading, 
                   top: `${(scrollTop / (contentHeight - containerHeight)) * (containerHeight - 40)}px`,
                   width: '12px',
                   height: '40px',
-                  backgroundColor: '#FE8803',
+                  backgroundColor: '#E8127C',
                   borderRadius: '6px',
                   cursor: 'pointer'
                 }}
