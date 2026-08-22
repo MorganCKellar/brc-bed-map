@@ -7,9 +7,9 @@
     "totalCamps": 32,
     "stats": {
       "none": 0,
-      "registered": 16,
-      "consent_policy": 2,
-      "bed_talk": 14
+      "registered": 13,
+      "consent_policy": 0,
+      "bed_talk": 19
     }
   },
   "camps": [
@@ -242,7 +242,7 @@
       "camp_name": "Skrambles**!*",
       "placement_address": "8:59 & G-",
       "original_address": "9:00 & G Plaza",
-      "bed_status": "consent_policy",
+      "bed_status": "bed_talk",
       "user_name": null,
       "email": null,
       "buddy_name": null,
@@ -258,7 +258,7 @@
       "camp_name": "Guano Loco Lounge",
       "placement_address": "2:00 & B",
       "original_address": "2:15 & B",
-      "bed_status": "consent_policy",
+      "bed_status": "bed_talk",
       "user_name": null,
       "email": null,
       "buddy_name": null,
@@ -274,7 +274,7 @@
       "camp_name": "Aerialknotics",
       "placement_address": "4:00 & A",
       "original_address": "4:00 & A",
-      "bed_status": "registered",
+      "bed_status": "bed_talk",
       "user_name": null,
       "email": null,
       "buddy_name": null,
@@ -418,7 +418,7 @@
       "camp_name": "Pink Heart",
       "placement_address": "Esplanade (hoping)",
       "original_address": "Esplanade (hoping)",
-      "bed_status": "registered",
+      "bed_status": "bed_talk",
       "user_name": null,
       "email": null,
       "buddy_name": null,
@@ -434,7 +434,7 @@
       "camp_name": "Planned Playahood",
       "placement_address": "7:00 & E",
       "original_address": "7:00 & E",
-      "bed_status": "registered",
+      "bed_status": "bed_talk",
       "user_name": null,
       "email": null,
       "buddy_name": null,
