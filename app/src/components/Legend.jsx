@@ -241,7 +241,7 @@ const Legend = memo(({ theme = '2025', onStatusFilter, activeFilter, isExpanded:
               style={{
                 width: '100%',
                 padding: '0.75rem',
-                backgroundColor: theme === '2024' ? '#FF69B4' : '#3B82F6',
+                backgroundColor: theme === '2024' ? '#E8127C' : '#3B82F6',
                 color: '#FFFFFF',
                 border: 'none',
                 borderRadius: '0.5rem',
