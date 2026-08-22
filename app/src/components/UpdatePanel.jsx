@@ -22,14 +22,24 @@ const UpdatePanel = ({ theme = '2025', isVisible = false, onToggle }) => {
           gap: '1rem'
         }}
       >
+        <div style={{
+          color: '#4A1230',
+          fontFamily: themeConfig.typography.primaryFont,
+          fontWeight: 800,
+          fontSize: '0.72rem',
+          letterSpacing: '0.22em',
+          textTransform: 'uppercase'
+        }}>
+          Don't See Your Camp?
+        </div>
         <button
           onClick={handleUpdateClick}
           style={{
-            padding: '0.75rem 1rem',
+            padding: '0.8rem 1.4rem',
             backgroundColor: '#E8127C',
             color: '#FFFFFF',
             border: 'none',
-            borderRadius: '0.75rem',
+            borderRadius: '2rem',
             fontFamily: themeConfig.typography.primaryFont,
             fontWeight: '600',
             fontSize: '0.875rem',
@@ -50,9 +60,8 @@ const UpdatePanel = ({ theme = '2025', isVisible = false, onToggle }) => {
             e.target.style.boxShadow = '0 8px 25px rgba(254,136,3,0.3)';
           }}
         >
-          <div style={{ textAlign: 'center', lineHeight: '1.2' }}>
-            Don't See Your Camp?<br />
-            Update the BEDmap!
+          <div style={{ textAlign: 'center', lineHeight: '1.2', letterSpacing: '0.14em', textTransform: 'uppercase', fontWeight: 800 }}>
+            Update the BEDmap →
           </div>
         </button>
       </div>
