@@ -926,7 +926,7 @@ const MapView = () => {
       const bedTextGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
       svgRef.current.contentDocument.documentElement.setAttribute('viewBox', '42.42 0 1160.17 861.54'); // center the Man
       bedTextGroup.setAttribute("id", "bedtalks-text-svg");
-      bedTextGroup.setAttribute("transform", "translate(622.5, 800)"); // The Man's x-coord, y-coord + 575px
+      bedTextGroup.setAttribute("transform", "translate(622.5, 847.04)"); // The Man's x-coord, y-coord + 575px
       
       // Create SVG text element for BEDtalks.org
       const bedText = document.createElementNS("http://www.w3.org/2000/svg", "text");
@@ -1706,6 +1706,7 @@ const MapView = () => {
 };
 
 export default MapView;
+
 
 
 
