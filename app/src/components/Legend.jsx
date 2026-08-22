@@ -57,24 +57,13 @@ const Legend = memo(({ theme = '2025', onStatusFilter, activeFilter, isExpanded:
       aria-label="BED program status legend"
       style={{
       position: 'absolute',
-      bottom: '1rem',
-      left: '1rem',
-      backgroundColor: themeConfig.isOfficial 
-        ? 'rgba(0,0,0,0.6)' 
-        : themeConfig.isDark 
-          ? 'rgba(0,0,0,0.3)' 
-          : 'rgba(255,255,255,0.9)',
+      top: '1rem',
+      right: '1rem',
+      backgroundColor: 'transparent',
       padding: '1rem',
       borderRadius: '0.5rem',
-      boxShadow: themeConfig.isOfficial 
-        ? '0 10px 15px rgba(0, 0, 0, 0.3), 0 0 20px rgba(255,255,255,0.1)' 
-        : '0 10px 15px rgba(0, 0, 0, 0.1)',
-      border: themeConfig.isOfficial 
-        ? '1px solid rgba(255,255,255,0.3)' 
-        : themeConfig.isDark 
-          ? '1px solid rgba(255,255,255,0.2)' 
-          : '1px solid rgba(0,0,0,0.1)',
-      backdropFilter: 'blur(10px)',
+      boxShadow: 'none',
+      border: 'none',
       transition: 'all 0.3s ease',
       zIndex: 30
     }}>
