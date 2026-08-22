@@ -26,7 +26,7 @@ const UpdatePanel = ({ theme = '2025', isVisible = false, onToggle }) => {
           onClick={handleUpdateClick}
           style={{
             padding: '0.75rem 1rem',
-            backgroundColor: '#FE8803',
+            backgroundColor: '#E8127C',
             color: '#FFFFFF',
             border: 'none',
             borderRadius: '0.75rem',
@@ -171,7 +171,7 @@ const UpdatePanel = ({ theme = '2025', isVisible = false, onToggle }) => {
           style={{
             width: '100%',
             padding: '0.875rem 1.25rem',
-            backgroundColor: '#FE8803',
+            backgroundColor: '#E8127C',
             color: '#FFFFFF',
             border: 'none',
             borderRadius: '0.75rem',
