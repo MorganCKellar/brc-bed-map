@@ -21,7 +21,7 @@ import { logger } from '../utils/logger';
 export const useUrlState = () => {
   const [urlState, setUrlState] = useState({
     theme: '2024',
-    zoom: 0.8,
+    zoom: 0.68,
     pan: { x: 0, y: 84 },
     selectedBlock: null,
     search: ''
@@ -32,7 +32,7 @@ export const useUrlState = () => {
     const urlParams = new URLSearchParams(window.location.search);
     const newState = {
       theme: '2024',
-      zoom: 0.8,
+      zoom: 0.68,
       pan: { x: 0, y: 84 },
       selectedBlock: null,
       search: ''
