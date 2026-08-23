@@ -1401,7 +1401,7 @@ const MapView = () => {
             boxSizing: 'border-box',
             top: window.innerWidth <= 768 ? '-5em' : '0',
             transform: window.innerWidth <= 768 
-              ? `translateY(6%) scale(0.78)`
+              ? `translateY(9%) scale(0.78)`
               : `translate(${pan.x}px, ${pan.y}px) scale(${zoom})`,
             transformOrigin: 'center center',
             transition: _isPanning ? 'none' : 'transform 0.2s ease-out, opacity 0.3s ease',
@@ -1458,10 +1458,10 @@ const MapView = () => {
           }}
         >
           <defs>
-            <linearGradient id="pzV" gradientUnits="userSpaceOnUse" x1="622.5" y1="-419.66" x2="622.5" y2="848.44">
+            <linearGradient id="pzV" gradientUnits="userSpaceOnUse" x1="622.5" y1="-304.36" x2="622.5" y2="848.44">
               <stop offset="0" stopColor="#E8127C" />
               <stop offset="0.36" stopColor="#E8127C" />
-              <stop offset="0.545" stopColor="#FFFFFF" />
+              <stop offset="0.5" stopColor="#FFFFFF" />
               <stop offset="0.73" stopColor="#E8127C" />
               <stop offset="1" stopColor="#E8127C" />
             </linearGradient>
@@ -1474,7 +1474,7 @@ const MapView = () => {
             </linearGradient>
           </defs>
           <circle cx="622.5" cy="272.04" r="576.4" fill="none" stroke="#E8127C" strokeWidth="14.3" />
-          <line x1="622.5" y1="-419.66" x2="622.5" y2="848.44" stroke="url(#pzV)" strokeWidth="14.3" strokeLinecap="round" />
+          <line x1="622.5" y1="-304.36" x2="622.5" y2="848.44" stroke="url(#pzV)" strokeWidth="14.3" strokeLinecap="round" />
           <line x1="46.1" y1="272.04" x2="1198.9" y2="272.04" stroke="url(#pzH)" strokeWidth="14.3" />
           <circle cx="622.5" cy="272.04" r="17" fill="#FFFFFF" />
           <circle cx="622.5" cy="272.04" r="7" fill="#E8127C" />
@@ -1550,9 +1550,10 @@ const MapView = () => {
           left: '50%',
           transform: 'translateX(-50%)',
           color: '#FFFFFF',
+          textShadow: '0 0 16px rgba(232, 18, 124, 0.95), 0 0 34px rgba(232, 18, 124, 0.6), 0 2px 10px rgba(120, 12, 62, 0.5)',
           fontFamily: 'Inter, system-ui, sans-serif',
           fontWeight: 800,
-          fontSize: '1.05rem',
+          fontSize: '1.18rem',
           letterSpacing: '0.5em',
           textTransform: 'uppercase',
           whiteSpace: 'nowrap',
@@ -1735,6 +1736,7 @@ const MapView = () => {
 };
 
 export default MapView;
+
 
 
 
