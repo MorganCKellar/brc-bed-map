@@ -949,7 +949,7 @@ const MapView = () => {
       bedTextGroup.appendChild(bedText);
       bedTextGroup.appendChild(bedTextTitle);
       
-      svgDoc.documentElement.appendChild(bedTextGroup);
+      // BEDtalks.org map text removed by design (badge carries the URL)
       logger.map.debug('Added BEDtalks.org text to SVG', { coordinates: '622.5, 847.04' });
     }
 
@@ -1737,6 +1737,7 @@ const MapView = () => {
 };
 
 export default MapView;
+
 
 
 
