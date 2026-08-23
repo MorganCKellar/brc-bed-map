@@ -1401,7 +1401,7 @@ const MapView = () => {
             boxSizing: 'border-box',
             top: window.innerWidth <= 768 ? '-5em' : '0',
             transform: window.innerWidth <= 768 
-              ? `translateY(9%) scale(0.78)`
+              ? `translateY(9%) scale(0.72)`
               : `translate(${pan.x}px, ${pan.y}px) scale(${zoom})`,
             transformOrigin: 'center center',
             transition: _isPanning ? 'none' : 'transform 0.2s ease-out, opacity 0.3s ease',
@@ -1737,6 +1737,7 @@ const MapView = () => {
 };
 
 export default MapView;
+
 
 
 
