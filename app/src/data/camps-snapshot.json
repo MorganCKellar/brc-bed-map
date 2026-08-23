@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generatedAt": "2026-08-23T00:00:44.706Z",
+    "generatedAt": "2026-08-23T01:41:13.520Z",
     "source": "airtable_2026_sync",
     "tableName": "2026",
     "privacy": "Camp name, address, and BED status only. No personal information.",
@@ -48,8 +48,8 @@
     {
       "id": "2026-003",
       "camp_name": "BED",
-      "placement_address": "6:00 & C",
-      "original_address": "C & 6",
+      "placement_address": "6:00 & E",
+      "original_address": "6:15 & E",
       "bed_status": "bed_talk",
       "user_name": null,
       "email": null,
