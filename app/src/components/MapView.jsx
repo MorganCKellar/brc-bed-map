@@ -1622,6 +1622,7 @@ const MapView = () => {
           .pz-tagline { }
           @media (max-width: 768px) {
             .pz-badge { display: none !important; }
+            .legend-container { margin-top: 5rem !important; }
             .pz-tagline {
               font-size: 0.66rem !important;
               letter-spacing: 0.24em !important;
@@ -1736,6 +1737,7 @@ const MapView = () => {
 };
 
 export default MapView;
+
 
 
 
