@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generatedAt": "2026-08-24T00:00:01.404Z",
+    "generatedAt": "2026-08-24T01:39:16.741Z",
     "source": "airtable_2026_sync",
     "tableName": "2026",
     "privacy": "Camp name, address, and BED status only. No personal information.",
     "totalCamps": 43,
     "stats": {
       "none": 0,
-      "registered": 16,
+      "registered": 14,
       "consent_policy": 0,
-      "bed_talk": 27
+      "bed_talk": 29
     }
   },
   "camps": [
@@ -81,8 +81,8 @@
       "id": "2026-005",
       "camp_name": "BRC Passport Office",
       "placement_address": "5:59 & A+",
-      "original_address": "Center Camp @ 4:30",
-      "bed_status": "registered",
+      "original_address": "Center Camp & 4:30",
+      "bed_status": "bed_talk",
       "user_name": null,
       "email": null,
       "buddy_name": null,
@@ -194,7 +194,7 @@
       "camp_name": "Camp Soft Landing",
       "placement_address": "6:30 & F",
       "original_address": "6:30&F",
-      "bed_status": "registered",
+      "bed_status": "bed_talk",
       "user_name": null,
       "email": null,
       "buddy_name": null,
@@ -401,7 +401,7 @@
       "id": "2026-025",
       "camp_name": "Nobo",
       "placement_address": "4:30 & D",
-      "original_address": "D&4:45",
+      "original_address": "D & 4:45",
       "bed_status": "bed_talk",
       "user_name": null,
       "email": null,
