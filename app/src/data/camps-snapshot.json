@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generatedAt": "2026-08-23T18:36:04.499Z",
+    "generatedAt": "2026-08-24T00:00:01.404Z",
     "source": "airtable_2026_sync",
     "tableName": "2026",
     "privacy": "Camp name, address, and BED status only. No personal information.",
     "totalCamps": 43,
     "stats": {
       "none": 0,
-      "registered": 17,
+      "registered": 16,
       "consent_policy": 0,
-      "bed_talk": 26
+      "bed_talk": 27
     }
   },
   "camps": [
@@ -240,8 +240,8 @@
     {
       "id": "2026-015",
       "camp_name": "Deep C",
-      "placement_address": "TBD",
-      "original_address": "TBD",
+      "placement_address": "2:00 & 2:15",
+      "original_address": "2:00 & 2:15",
       "bed_status": "registered",
       "user_name": null,
       "email": null,
@@ -383,7 +383,7 @@
     },
     {
       "id": "2026-024",
-      "camp_name": "Lick Me 'Till Ice Cream (SaguaroMan Camp)",
+      "camp_name": "Lick Me 'Till Ice Cream",
       "placement_address": "5:30 & B",
       "original_address": "5:30 and B (SguaroMan)",
       "bed_status": "bed_talk",
@@ -399,22 +399,6 @@
     },
     {
       "id": "2026-025",
-      "camp_name": "Lick Me Till Ice Cream",
-      "placement_address": "5:30 & C",
-      "original_address": "5:30 & C (SaguaroMan)",
-      "bed_status": "registered",
-      "user_name": null,
-      "email": null,
-      "buddy_name": null,
-      "phone": null,
-      "pronouns": null,
-      "camper_count": null,
-      "wants_buddy": null,
-      "notes": null,
-      "created_at": null
-    },
-    {
-      "id": "2026-026",
       "camp_name": "Nobo",
       "placement_address": "4:30 & D",
       "original_address": "D&4:45",
@@ -430,10 +414,26 @@
       "created_at": null
     },
     {
-      "id": "2026-027",
+      "id": "2026-026",
       "camp_name": "Nobo House",
-      "placement_address": "4:30 & D",
-      "original_address": "4:45 D",
+      "placement_address": "(address needed)",
+      "original_address": "(address needed)",
+      "bed_status": "registered",
+      "user_name": null,
+      "email": null,
+      "buddy_name": null,
+      "phone": null,
+      "pronouns": null,
+      "camper_count": null,
+      "wants_buddy": null,
+      "notes": null,
+      "created_at": null
+    },
+    {
+      "id": "2026-027",
+      "camp_name": "Opulent Temple",
+      "placement_address": "9:30 & Esplanade",
+      "original_address": "10 & Esplanade",
       "bed_status": "registered",
       "user_name": null,
       "email": null,
@@ -447,25 +447,9 @@
     },
     {
       "id": "2026-028",
-      "camp_name": "Opulent Temple",
-      "placement_address": "9:30 & Esplanade",
-      "original_address": "10&Esplanade",
-      "bed_status": "registered",
-      "user_name": null,
-      "email": null,
-      "buddy_name": null,
-      "phone": null,
-      "pronouns": null,
-      "camper_count": null,
-      "wants_buddy": null,
-      "notes": null,
-      "created_at": null
-    },
-    {
-      "id": "2026-029",
       "camp_name": "Pink Heart",
-      "placement_address": "Unsurew but hoping Esplanade & ?",
-      "original_address": "Unsurew but hoping Esplanade & ?",
+      "placement_address": "4:30 & Esplanade",
+      "original_address": "4:45 & Esplanade",
       "bed_status": "bed_talk",
       "user_name": null,
       "email": null,
@@ -478,7 +462,7 @@
       "created_at": null
     },
     {
-      "id": "2026-030",
+      "id": "2026-029",
       "camp_name": "Planned Playahood",
       "placement_address": "7:00 & E",
       "original_address": "7&E",
@@ -494,7 +478,7 @@
       "created_at": null
     },
     {
-      "id": "2026-031",
+      "id": "2026-030",
       "camp_name": "Playa Verde",
       "placement_address": "01",
       "original_address": "01",
@@ -510,7 +494,7 @@
       "created_at": null
     },
     {
-      "id": "2026-032",
+      "id": "2026-031",
       "camp_name": "Playafire",
       "placement_address": "5:00 & E",
       "original_address": "5 & E",
@@ -526,10 +510,26 @@
       "created_at": null
     },
     {
-      "id": "2026-033",
+      "id": "2026-032",
       "camp_name": "Rippers row",
       "placement_address": "3:00 & A",
       "original_address": "3&A",
+      "bed_status": "bed_talk",
+      "user_name": null,
+      "email": null,
+      "buddy_name": null,
+      "phone": null,
+      "pronouns": null,
+      "camper_count": null,
+      "wants_buddy": null,
+      "notes": null,
+      "created_at": null
+    },
+    {
+      "id": "2026-033",
+      "camp_name": "Roadside Distraction",
+      "placement_address": "7:00 & B",
+      "original_address": "7:15 & B",
       "bed_status": "bed_talk",
       "user_name": null,
       "email": null,
@@ -560,8 +560,8 @@
     {
       "id": "2026-035",
       "camp_name": "Skrambles**!*",
-      "placement_address": "9:00 & G",
-      "original_address": "9 & G plaza, man side",
+      "placement_address": "8:59 & G-",
+      "original_address": "9:00 & G Plaza",
       "bed_status": "bed_talk",
       "user_name": null,
       "email": null,
@@ -608,8 +608,8 @@
     {
       "id": "2026-038",
       "camp_name": "Stampede!",
-      "placement_address": "Eternal & 2:45",
-      "original_address": "Eternal & 2:45",
+      "placement_address": "2:30 & E",
+      "original_address": "E & 2:45",
       "bed_status": "registered",
       "user_name": null,
       "email": null,
@@ -656,8 +656,8 @@
     {
       "id": "2026-041",
       "camp_name": "Tour de Chance",
-      "placement_address": "(address needed)",
-      "original_address": "(address needed)",
+      "placement_address": "3:30 & C",
+      "original_address": "3:30 & C",
       "bed_status": "registered",
       "user_name": null,
       "email": null,
