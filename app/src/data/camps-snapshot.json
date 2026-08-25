@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "generatedAt": "2026-08-24T18:47:38.900Z",
+    "generatedAt": "2026-08-25T01:34:43.847Z",
     "source": "airtable_2026_sync",
     "tableName": "2026",
     "privacy": "Camp name, address, and BED status only. No personal information.",
     "totalCamps": 44,
     "stats": {
       "none": 0,
-      "registered": 14,
+      "registered": 13,
       "consent_policy": 0,
-      "bed_talk": 30
+      "bed_talk": 31
     }
   },
   "camps": [
@@ -224,9 +224,9 @@
     {
       "id": "2026-014",
       "camp_name": "Crêpiphany",
-      "placement_address": "6:00 & C",
-      "original_address": "6&C",
-      "bed_status": "registered",
+      "placement_address": "6:00 & D",
+      "original_address": "6:00 and D",
+      "bed_status": "bed_talk",
       "user_name": null,
       "email": null,
       "buddy_name": null,
