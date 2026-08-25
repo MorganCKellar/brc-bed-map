@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generatedAt": "2026-08-25T12:54:58.709Z",
+    "generatedAt": "2026-08-25T18:45:05.245Z",
     "source": "airtable_2026_sync",
     "tableName": "2026",
     "privacy": "Camp name, address, and BED status only. No personal information.",
-    "totalCamps": 45,
+    "totalCamps": 46,
     "stats": {
       "none": 0,
-      "registered": 14,
+      "registered": 15,
       "consent_policy": 0,
       "bed_talk": 31
     }
@@ -722,6 +722,22 @@
       "camp_name": "Yelllow Balloon",
       "placement_address": "7:00 & A",
       "original_address": "7 & A",
+      "bed_status": "registered",
+      "user_name": null,
+      "email": null,
+      "buddy_name": null,
+      "phone": null,
+      "pronouns": null,
+      "camper_count": null,
+      "wants_buddy": null,
+      "notes": null,
+      "created_at": null
+    },
+    {
+      "id": "2026-046",
+      "camp_name": "Yellow Balloon",
+      "placement_address": "7:30 & A",
+      "original_address": "7:30 and A",
       "bed_status": "registered",
       "user_name": null,
       "email": null,
