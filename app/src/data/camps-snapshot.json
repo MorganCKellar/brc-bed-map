@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generatedAt": "2026-08-25T01:34:43.847Z",
+    "generatedAt": "2026-08-25T06:55:38.939Z",
     "source": "airtable_2026_sync",
     "tableName": "2026",
     "privacy": "Camp name, address, and BED status only. No personal information.",
-    "totalCamps": 44,
+    "totalCamps": 45,
     "stats": {
       "none": 0,
-      "registered": 13,
+      "registered": 14,
       "consent_policy": 0,
       "bed_talk": 31
     }
@@ -79,6 +79,22 @@
     },
     {
       "id": "2026-005",
+      "camp_name": "Blue CATerpillar",
+      "placement_address": "9:30 & C",
+      "original_address": "9:30 C",
+      "bed_status": "registered",
+      "user_name": null,
+      "email": null,
+      "buddy_name": null,
+      "phone": null,
+      "pronouns": null,
+      "camper_count": null,
+      "wants_buddy": null,
+      "notes": null,
+      "created_at": null
+    },
+    {
+      "id": "2026-006",
       "camp_name": "BRC Passport Office",
       "placement_address": "5:59 & A+",
       "original_address": "Center Camp & 4:30",
@@ -94,7 +110,7 @@
       "created_at": null
     },
     {
-      "id": "2026-006",
+      "id": "2026-007",
       "camp_name": "Burnt Out Burners Oasis",
       "placement_address": "Sunrise Road next to HQ",
       "original_address": "Sunrise Road next to HQ",
@@ -110,7 +126,7 @@
       "created_at": null
     },
     {
-      "id": "2026-007",
+      "id": "2026-008",
       "camp_name": "camp axo",
       "placement_address": "4:00 & F",
       "original_address": "4 & F",
@@ -126,7 +142,7 @@
       "created_at": null
     },
     {
-      "id": "2026-008",
+      "id": "2026-009",
       "camp_name": "Camp Camp",
       "placement_address": "04",
       "original_address": "04",
@@ -142,7 +158,7 @@
       "created_at": null
     },
     {
-      "id": "2026-009",
+      "id": "2026-010",
       "camp_name": "Camp Chrysalis",
       "placement_address": "9:00 & C",
       "original_address": "9&C",
@@ -158,7 +174,7 @@
       "created_at": null
     },
     {
-      "id": "2026-010",
+      "id": "2026-011",
       "camp_name": "Camp Frizz",
       "placement_address": "4:30 & D",
       "original_address": "D & 4:45",
@@ -174,7 +190,7 @@
       "created_at": null
     },
     {
-      "id": "2026-011",
+      "id": "2026-012",
       "camp_name": "Camp Open",
       "placement_address": "Somewhere on esplanade",
       "original_address": "Somewhere on esplanade",
@@ -190,7 +206,7 @@
       "created_at": null
     },
     {
-      "id": "2026-012",
+      "id": "2026-013",
       "camp_name": "Camp Soft Landing",
       "placement_address": "6:30 & F",
       "original_address": "6:30&F",
@@ -206,7 +222,7 @@
       "created_at": null
     },
     {
-      "id": "2026-013",
+      "id": "2026-014",
       "camp_name": "Celestial Bodies",
       "placement_address": "7:30 & G",
       "original_address": "7:30 & G",
@@ -222,7 +238,7 @@
       "created_at": null
     },
     {
-      "id": "2026-014",
+      "id": "2026-015",
       "camp_name": "Crêpiphany",
       "placement_address": "6:00 & D",
       "original_address": "6:00 and D",
@@ -238,7 +254,7 @@
       "created_at": null
     },
     {
-      "id": "2026-015",
+      "id": "2026-016",
       "camp_name": "Deep C",
       "placement_address": "2:00 & 2:15",
       "original_address": "2:00 & 2:15",
@@ -254,7 +270,7 @@
       "created_at": null
     },
     {
-      "id": "2026-016",
+      "id": "2026-017",
       "camp_name": "Dr. Playa's ENT Clinic",
       "placement_address": "6:00 & Esplanade",
       "original_address": "6:15 and Esplanade",
@@ -270,7 +286,7 @@
       "created_at": null
     },
     {
-      "id": "2026-017",
+      "id": "2026-018",
       "camp_name": "Erotic Inclination Photo Studio",
       "placement_address": "3:00 & I",
       "original_address": "3:00 & I",
@@ -286,7 +302,7 @@
       "created_at": null
     },
     {
-      "id": "2026-018",
+      "id": "2026-019",
       "camp_name": "Foamadelic 9:30 & F",
       "placement_address": "(address needed)",
       "original_address": "(address needed)",
@@ -302,7 +318,7 @@
       "created_at": null
     },
     {
-      "id": "2026-019",
+      "id": "2026-020",
       "camp_name": "fruitPOP",
       "placement_address": "6:30 & E",
       "original_address": "6:45 & E",
@@ -318,7 +334,7 @@
       "created_at": null
     },
     {
-      "id": "2026-020",
+      "id": "2026-021",
       "camp_name": "Gallavant",
       "placement_address": "3:00 & G",
       "original_address": "3 and G",
@@ -334,7 +350,7 @@
       "created_at": null
     },
     {
-      "id": "2026-021",
+      "id": "2026-022",
       "camp_name": "Giraffe Caffe",
       "placement_address": "7:30 & G",
       "original_address": "7:30 & G",
@@ -350,7 +366,7 @@
       "created_at": null
     },
     {
-      "id": "2026-022",
+      "id": "2026-023",
       "camp_name": "Gritty Garden",
       "placement_address": "5:00 & B",
       "original_address": "5 and B",
@@ -366,7 +382,7 @@
       "created_at": null
     },
     {
-      "id": "2026-023",
+      "id": "2026-024",
       "camp_name": "Guano Loco Lounge",
       "placement_address": "2:00 & B",
       "original_address": "B & 2:15",
@@ -382,7 +398,7 @@
       "created_at": null
     },
     {
-      "id": "2026-024",
+      "id": "2026-025",
       "camp_name": "Irish Spike's Kinky Camp",
       "placement_address": "8:00 & B",
       "original_address": "B & 8",
@@ -398,7 +414,7 @@
       "created_at": null
     },
     {
-      "id": "2026-025",
+      "id": "2026-026",
       "camp_name": "Lick Me 'Till Ice Cream",
       "placement_address": "5:30 & B",
       "original_address": "5:30 and B (SguaroMan)",
@@ -414,7 +430,7 @@
       "created_at": null
     },
     {
-      "id": "2026-026",
+      "id": "2026-027",
       "camp_name": "Nobo",
       "placement_address": "4:30 & D",
       "original_address": "D & 4:45",
@@ -430,7 +446,7 @@
       "created_at": null
     },
     {
-      "id": "2026-027",
+      "id": "2026-028",
       "camp_name": "Nobo House",
       "placement_address": "(address needed)",
       "original_address": "(address needed)",
@@ -446,7 +462,7 @@
       "created_at": null
     },
     {
-      "id": "2026-028",
+      "id": "2026-029",
       "camp_name": "Opulent Temple",
       "placement_address": "9:30 & Esplanade",
       "original_address": "10 & Esplanade",
@@ -462,7 +478,7 @@
       "created_at": null
     },
     {
-      "id": "2026-029",
+      "id": "2026-030",
       "camp_name": "Pink Heart",
       "placement_address": "4:30 & Esplanade",
       "original_address": "4:45 & Esplanade",
@@ -478,7 +494,7 @@
       "created_at": null
     },
     {
-      "id": "2026-030",
+      "id": "2026-031",
       "camp_name": "Planned Playahood",
       "placement_address": "7:00 & E",
       "original_address": "7&E",
@@ -494,7 +510,7 @@
       "created_at": null
     },
     {
-      "id": "2026-031",
+      "id": "2026-032",
       "camp_name": "Playa Verde",
       "placement_address": "01",
       "original_address": "01",
@@ -510,7 +526,7 @@
       "created_at": null
     },
     {
-      "id": "2026-032",
+      "id": "2026-033",
       "camp_name": "Playafire",
       "placement_address": "5:00 & E",
       "original_address": "5 & E",
@@ -526,7 +542,7 @@
       "created_at": null
     },
     {
-      "id": "2026-033",
+      "id": "2026-034",
       "camp_name": "Rippers row",
       "placement_address": "3:00 & A",
       "original_address": "3&A",
@@ -542,7 +558,7 @@
       "created_at": null
     },
     {
-      "id": "2026-034",
+      "id": "2026-035",
       "camp_name": "Roadside Distraction",
       "placement_address": "7:00 & B",
       "original_address": "7:15 & B",
@@ -558,7 +574,7 @@
       "created_at": null
     },
     {
-      "id": "2026-035",
+      "id": "2026-036",
       "camp_name": "Sindicato de Sentidos",
       "placement_address": "Fuego Austral in Argentina",
       "original_address": "Fuego Austral in Argentina",
@@ -574,7 +590,7 @@
       "created_at": null
     },
     {
-      "id": "2026-036",
+      "id": "2026-037",
       "camp_name": "Skrambles**!*",
       "placement_address": "8:59 & G-",
       "original_address": "9:00 & G Plaza",
@@ -590,7 +606,7 @@
       "created_at": null
     },
     {
-      "id": "2026-037",
+      "id": "2026-038",
       "camp_name": "Spanky’s",
       "placement_address": "7:00 & E",
       "original_address": "7:29 & E",
@@ -606,7 +622,7 @@
       "created_at": null
     },
     {
-      "id": "2026-038",
+      "id": "2026-039",
       "camp_name": "Squeakpocalypse",
       "placement_address": "4:30 & C",
       "original_address": "4:30 c",
@@ -622,7 +638,7 @@
       "created_at": null
     },
     {
-      "id": "2026-039",
+      "id": "2026-040",
       "camp_name": "Stampede!",
       "placement_address": "2:30 & E",
       "original_address": "E & 2:45",
@@ -638,7 +654,7 @@
       "created_at": null
     },
     {
-      "id": "2026-040",
+      "id": "2026-041",
       "camp_name": "Stardust Lounge",
       "placement_address": "8:30 & B",
       "original_address": "8:30 & B",
@@ -654,7 +670,7 @@
       "created_at": null
     },
     {
-      "id": "2026-041",
+      "id": "2026-042",
       "camp_name": "The Vixxxins Den",
       "placement_address": "8:30 & A",
       "original_address": "Between 8:00 and 8:30 and A and B",
@@ -670,7 +686,7 @@
       "created_at": null
     },
     {
-      "id": "2026-042",
+      "id": "2026-043",
       "camp_name": "Tour de Chance",
       "placement_address": "3:30 & C",
       "original_address": "3:30 & C",
@@ -686,7 +702,7 @@
       "created_at": null
     },
     {
-      "id": "2026-043",
+      "id": "2026-044",
       "camp_name": "We are near tranquility base",
       "placement_address": "(address needed)",
       "original_address": "(address needed)",
@@ -702,7 +718,7 @@
       "created_at": null
     },
     {
-      "id": "2026-044",
+      "id": "2026-045",
       "camp_name": "Yelllow Balloon",
       "placement_address": "7:00 & A",
       "original_address": "7 & A",
