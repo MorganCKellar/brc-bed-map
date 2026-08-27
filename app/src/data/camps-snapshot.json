@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generatedAt": "2026-08-26T19:53:19.098Z",
+    "generatedAt": "2026-08-27T08:30:09.380Z",
     "source": "airtable_2026_sync",
     "tableName": "2026",
     "privacy": "Camp name, address, and BED status only. No personal information.",
-    "totalCamps": 47,
+    "totalCamps": 48,
     "stats": {
       "none": 0,
-      "registered": 15,
+      "registered": 16,
       "consent_policy": 0,
       "bed_talk": 32
     }
@@ -511,6 +511,22 @@
     },
     {
       "id": "2026-032",
+      "camp_name": "Pinwheelz",
+      "placement_address": "(address needed)",
+      "original_address": "(address needed)",
+      "bed_status": "registered",
+      "user_name": null,
+      "email": null,
+      "buddy_name": null,
+      "phone": null,
+      "pronouns": null,
+      "camper_count": null,
+      "wants_buddy": null,
+      "notes": null,
+      "created_at": null
+    },
+    {
+      "id": "2026-033",
       "camp_name": "Planned Playahood",
       "placement_address": "7:00 & E",
       "original_address": "7&E",
@@ -526,7 +542,7 @@
       "created_at": null
     },
     {
-      "id": "2026-033",
+      "id": "2026-034",
       "camp_name": "Playa Verde",
       "placement_address": "01",
       "original_address": "01",
@@ -542,7 +558,7 @@
       "created_at": null
     },
     {
-      "id": "2026-034",
+      "id": "2026-035",
       "camp_name": "Playafire",
       "placement_address": "5:00 & E",
       "original_address": "5 & E",
@@ -558,7 +574,7 @@
       "created_at": null
     },
     {
-      "id": "2026-035",
+      "id": "2026-036",
       "camp_name": "Rippers row",
       "placement_address": "3:00 & A",
       "original_address": "3&A",
@@ -574,7 +590,7 @@
       "created_at": null
     },
     {
-      "id": "2026-036",
+      "id": "2026-037",
       "camp_name": "Roadside Distraction",
       "placement_address": "7:00 & B",
       "original_address": "7:15 & B",
@@ -590,7 +606,7 @@
       "created_at": null
     },
     {
-      "id": "2026-037",
+      "id": "2026-038",
       "camp_name": "Sindicato de Sentidos",
       "placement_address": "Fuego Austral in Argentina",
       "original_address": "Fuego Austral in Argentina",
@@ -606,7 +622,7 @@
       "created_at": null
     },
     {
-      "id": "2026-038",
+      "id": "2026-039",
       "camp_name": "Skrambles**!*",
       "placement_address": "8:59 & G-",
       "original_address": "9:00 & G Plaza",
@@ -622,7 +638,7 @@
       "created_at": null
     },
     {
-      "id": "2026-039",
+      "id": "2026-040",
       "camp_name": "Spanky’s",
       "placement_address": "7:00 & E",
       "original_address": "7:29 & E",
@@ -638,7 +654,7 @@
       "created_at": null
     },
     {
-      "id": "2026-040",
+      "id": "2026-041",
       "camp_name": "Squeakpocalypse",
       "placement_address": "4:30 & C",
       "original_address": "4:30 c",
@@ -654,7 +670,7 @@
       "created_at": null
     },
     {
-      "id": "2026-041",
+      "id": "2026-042",
       "camp_name": "Stampede!",
       "placement_address": "2:30 & E",
       "original_address": "E & 2:45",
@@ -670,7 +686,7 @@
       "created_at": null
     },
     {
-      "id": "2026-042",
+      "id": "2026-043",
       "camp_name": "Stardust Lounge",
       "placement_address": "8:30 & B",
       "original_address": "8:30 & B",
@@ -686,7 +702,7 @@
       "created_at": null
     },
     {
-      "id": "2026-043",
+      "id": "2026-044",
       "camp_name": "The Vixxxins Den",
       "placement_address": "8:30 & A",
       "original_address": "Between 8:00 and 8:30 and A and B",
@@ -702,7 +718,7 @@
       "created_at": null
     },
     {
-      "id": "2026-044",
+      "id": "2026-045",
       "camp_name": "Tour de Chance",
       "placement_address": "3:30 & C",
       "original_address": "3:30 & C",
@@ -718,7 +734,7 @@
       "created_at": null
     },
     {
-      "id": "2026-045",
+      "id": "2026-046",
       "camp_name": "We are near tranquility base",
       "placement_address": "(address needed)",
       "original_address": "(address needed)",
@@ -734,7 +750,7 @@
       "created_at": null
     },
     {
-      "id": "2026-046",
+      "id": "2026-047",
       "camp_name": "Yelllow Balloon",
       "placement_address": "7:00 & A",
       "original_address": "7 & A",
@@ -750,7 +766,7 @@
       "created_at": null
     },
     {
-      "id": "2026-047",
+      "id": "2026-048",
       "camp_name": "Yellow Balloon",
       "placement_address": "7:30 & A",
       "original_address": "7:30 and A",
