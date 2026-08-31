@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generatedAt": "2026-08-30T20:49:14.565Z",
+    "generatedAt": "2026-08-31T04:46:49.494Z",
     "source": "airtable_2026_sync",
     "tableName": "2026",
     "privacy": "Camp name, address, and BED status only. No personal information.",
@@ -784,8 +784,8 @@
     {
       "id": "2026-049",
       "camp_name": "Yellow Balloon",
-      "placement_address": "7:30 & A",
-      "original_address": "7:30 and A",
+      "placement_address": "7:00 & A",
+      "original_address": "7:00 and A",
       "bed_status": "registered",
       "user_name": null,
       "email": null,
